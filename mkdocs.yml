@@ -1,0 +1,70 @@
+# Site name
+site_name: SITE NAME
+
+# Navigation menu
+nav:
+  - Overview: index.md
+  - Architecture:
+    - Pipeline Design: architecture/design-pipeline.md
+    - ADR: architecture/adr.md
+
+# Theme
+theme:
+    features:
+      - toc.integrate
+      - content.code.copy
+    name: material
+    icon:
+      logo: material/database
+    static_templates:
+      - 404.html
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - attr_list
+  - codehilite:
+      guess_lang: false
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: false
+      toc_depth: 2
+
+  - pymdownx.arithmatex
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: false
+  - pymdownx.tilde
+
+plugins:
+  - search
+
+extra_javascript:
+  - https://unpkg.com/mermaid/dist/mermaid.min.js
+

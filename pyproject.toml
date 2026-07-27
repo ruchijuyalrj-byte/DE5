@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "library-pipeline"
+version = "0.1.0"
+description = "Library data pipeline - DE5 Module 5 scaffold"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pandas>=1.5.0",
+    "numpy>=1.23.0",
+    "openpyxl>=3.0.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py311"
+extend-exclude = ["venv", ".venv", "build", "dist"]
+
+[tool.pytest.ini_options]
+addopts = "-v"
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.coverage.run]
+omit = [
+    "*/__init__.py",
+    "src/data_processing/run_pipeline.py",
+]
+
+[tool.coverage.report]
+show_missing = true
+skip_empty = true
+# fail_under = 70

@@ -1,0 +1,1 @@
+# Gold layer data files
