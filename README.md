@@ -32,7 +32,7 @@ git config --global user.name "Your Name"
 ### Local Development
 ```bash
 # Clone this repository
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO.git
+git clone https://github.com/ruchijuyalrj-byte/DE5.git
 cd YOUR_REPO
 
 # Create virtual environment
