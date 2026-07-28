@@ -10,6 +10,7 @@ All functions return new DataFrames without modifying the input.
 # from typing import List, Optional
 
 import logging
+import pandas as pd
 
 logger = logging.getLogger(__name__)
 

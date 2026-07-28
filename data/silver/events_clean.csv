@@ -18,7 +18,6 @@ EVT0015,Computer Skills Workshop,Manor Park,2025-10-13,3.5,13,29,8,15,3,11
 EVT0016,Author Talk,East Ham,2025-12-29,4.1,26,26,1,8,6,20
 EVT0017,Teen Gaming Night,North Woolwich,2025-10-19,4.6,36,27,8,6,10,8
 EVT0018,Teen Gaming Night,North Woolwich,2026-02-02,4.7,24,27,10,13,10,5
-EVT0019,Book Club Meeting,Plaistow,2026-04-18,,35,24,8,10,3,4
 EVT0020,Homework Help Session,Beckton,2026-06-23,3.6,39,35,5,15,0,16
 EVT0021,Book Club Meeting,Beckton,2026-03-09,3.5,36,44,8,6,10,20
 EVT0022,Homework Help Session,Plaistow,2025-11-02,4.6,48,26,8,1,5,0
@@ -33,7 +32,6 @@ EVT0030,Homework Help Session,Stratford,2025-09-23,4.7,17,14,3,11,9,0
 EVT0031,Computer Skills Workshop,Manor Park,2025-11-29,3.8,21,34,4,4,8,13
 EVT0032,Book Club Meeting,Beckton,2026-04-02,4.1,32,12,0,11,7,7
 EVT0033,Homework Help Session,Manor Park,2026-05-22,5.0,32,23,5,2,4,20
-EVT0034,Teen Gaming Night,Beckton,2026-01-22,,50,10,9,7,5,3
 EVT0035,Homework Help Session,Manor Park,2025-11-08,3.8,32,27,5,7,7,1
 EVT0036,Computer Skills Workshop,East Ham,2026-05-31,3.8,44,11,6,14,3,7
 EVT0037,Book Club Meeting,Beckton,2026-01-18,3.5,15,25,7,11,6,5
@@ -57,12 +55,10 @@ EVT0054,Book Club Meeting,Stratford,2025-11-10,3.1,18,29,8,7,8,15
 EVT0055,Book Club Meeting,North Woolwich,2025-12-24,3.8,29,45,5,1,2,19
 EVT0056,Computer Skills Workshop,Stratford,2025-11-11,4.4,25,8,4,0,9,6
 EVT0057,Computer Skills Workshop,North Woolwich,2026-02-06,3.8,32,24,10,2,8,4
-EVT0058,Teen Gaming Night,Stratford,2026-02-17,,12,9,3,4,7,5
 EVT0059,Author Talk,Stratford,2026-02-28,3.3,25,20,4,12,0,3
 EVT0060,Children's Story Hour,Stratford,2026-06-21,4.5,25,39,10,5,5,7
 EVT0061,Homework Help Session,East Ham,2026-06-22,4.7,14,29,8,3,10,13
 EVT0062,Book Club Meeting,Custom House,2026-05-03,3.9,46,10,10,15,3,12
-EVT0063,Teen Gaming Night,Custom House,2026-02-09,,29,36,6,15,2,1
 EVT0064,Author Talk,East Ham,2025-06-30,3.9,15,21,1,1,7,0
 EVT0065,Author Talk,Custom House,2025-09-11,3.0,33,6,10,10,1,5
 EVT0066,Author Talk,Stratford,2026-04-22,4.9,17,42,1,8,10,9
@@ -78,31 +74,26 @@ EVT0075,Teen Gaming Night,North Woolwich,2025-10-21,3.8,36,18,6,8,7,0
 EVT0076,Computer Skills Workshop,Custom House,2025-08-01,4.1,46,29,9,15,0,6
 EVT0077,Book Club Meeting,Stratford,2026-06-03,3.5,11,22,8,7,7,19
 EVT0078,Homework Help Session,East Ham,2025-11-07,4.3,15,27,9,5,2,19
-EVT0079,Computer Skills Workshop,Stratford,2026-04-08,,34,26,9,7,4,2
 EVT0080,Author Talk,Stratford,2025-08-08,3.3,34,14,9,3,1,17
 EVT0081,Book Club Meeting,Manor Park,2025-11-16,3.9,40,12,8,6,0,2
 EVT0082,Teen Gaming Night,Beckton,2025-08-25,4.5,35,8,7,10,10,14
 EVT0083,Homework Help Session,Custom House,2025-07-25,4.2,26,41,7,9,9,19
 EVT0084,Author Talk,East Ham,2025-09-27,3.8,18,11,7,3,1,8
-EVT0085,Author Talk,Plaistow,2025-10-08,,32,38,1,3,0,13
 EVT0086,Book Club Meeting,North Woolwich,2026-01-16,3.3,30,31,3,3,6,6
 EVT0087,Computer Skills Workshop,Manor Park,2025-08-10,4.2,32,33,2,13,1,13
 EVT0088,Book Club Meeting,Plaistow,2026-01-15,4.4,45,37,1,2,9,6
 EVT0089,Teen Gaming Night,North Woolwich,2026-05-16,3.2,47,42,0,12,8,5
 EVT0090,Book Club Meeting,North Woolwich,2026-06-01,4.4,10,36,1,13,7,11
-EVT0091,Book Club Meeting,Stratford,2025-10-31,,34,19,3,13,1,7
 EVT0092,Teen Gaming Night,Beckton,2026-01-27,4.7,43,26,4,1,0,9
 EVT0093,Book Club Meeting,Plaistow,2025-07-23,4.0,20,43,5,9,5,16
 EVT0094,Author Talk,North Woolwich,2025-09-11,5.0,36,20,10,3,2,15
 EVT0095,Book Club Meeting,Custom House,2026-02-04,3.5,50,14,2,10,5,3
 EVT0096,Teen Gaming Night,North Woolwich,2026-05-18,4.7,21,25,8,2,10,8
 EVT0097,Book Club Meeting,Stratford,2025-11-10,4.1,21,17,6,1,1,17
-EVT0098,Author Talk,Manor Park,2025-11-12,,26,11,3,8,5,7
 EVT0099,Computer Skills Workshop,East Ham,2025-12-07,4.3,13,43,3,0,7,19
 EVT0100,Author Talk,Beckton,2026-03-28,4.6,49,7,10,13,10,9
 EVT0101,Teen Gaming Night,Plaistow,2026-04-01,3.4,18,45,4,1,8,19
 EVT0102,Children's Story Hour,Plaistow,2026-04-04,4.0,40,45,3,10,10,2
-EVT0103,Children's Story Hour,East Ham,2025-08-13,,23,44,7,6,6,14
 EVT0104,Homework Help Session,East Ham,2026-04-19,3.4,17,35,10,7,4,0
 EVT0105,Book Club Meeting,North Woolwich,2025-07-23,4.7,20,15,4,3,9,16
 EVT0106,Book Club Meeting,Beckton,2026-02-24,3.6,13,31,10,7,2,7
@@ -110,7 +101,6 @@ EVT0107,Children's Story Hour,Stratford,2026-02-05,4.5,44,11,10,9,4,8
 EVT0108,Teen Gaming Night,Beckton,2026-04-29,4.7,27,14,10,0,2,8
 EVT0109,Author Talk,Stratford,2025-07-22,4.5,48,24,7,13,5,2
 EVT0110,Computer Skills Workshop,North Woolwich,2026-02-20,3.6,14,26,6,8,0,19
-EVT0111,Author Talk,Plaistow,2026-05-08,,32,17,9,2,3,14
 EVT0112,Author Talk,Beckton,2025-10-15,4.0,50,13,4,10,1,20
 EVT0113,Book Club Meeting,Plaistow,2025-07-05,3.5,14,9,0,6,5,12
 EVT0114,Homework Help Session,Custom House,2025-08-19,3.8,47,16,0,5,3,15
@@ -134,7 +124,6 @@ EVT0131,Children's Story Hour,North Woolwich,2025-11-29,4.4,16,29,7,9,4,18
 EVT0132,Book Club Meeting,Manor Park,2025-09-20,4.8,23,28,9,13,9,16
 EVT0133,Author Talk,Manor Park,2026-02-19,3.6,11,26,6,13,9,7
 EVT0134,Book Club Meeting,Beckton,2025-08-01,4.1,26,16,8,13,1,15
-EVT0135,Book Club Meeting,Manor Park,2025-09-28,,38,12,4,1,2,10
 EVT0136,Homework Help Session,Beckton,2026-03-30,4.7,25,39,5,15,6,5
 EVT0137,Author Talk,Custom House,2025-12-14,3.5,14,45,6,7,8,20
 EVT0138,Homework Help Session,Plaistow,2025-09-21,3.4,45,8,10,12,3,10
@@ -149,14 +138,12 @@ EVT0146,Book Club Meeting,North Woolwich,2026-06-18,4.4,36,13,6,7,6,14
 EVT0147,Teen Gaming Night,Custom House,2025-12-05,4.7,45,43,7,15,4,15
 EVT0148,Teen Gaming Night,Manor Park,2026-05-23,3.4,28,20,4,10,2,18
 EVT0149,Homework Help Session,Plaistow,2025-08-18,4.0,26,6,3,15,6,14
-EVT0150,Children's Story Hour,Manor Park,2025-09-18,,19,6,7,13,7,11
 EVT0151,Teen Gaming Night,Plaistow,2026-04-16,4.5,32,17,4,2,1,10
 EVT0152,Homework Help Session,Beckton,2026-03-02,4.1,23,8,9,1,0,20
 EVT0153,Author Talk,North Woolwich,2026-04-19,4.5,12,31,5,12,5,16
 EVT0154,Homework Help Session,Manor Park,2026-03-24,3.7,31,20,8,10,10,13
 EVT0155,Book Club Meeting,East Ham,2026-05-21,3.1,18,31,6,1,10,0
 EVT0156,Computer Skills Workshop,Stratford,2025-10-10,4.5,46,10,1,1,3,9
-EVT0157,Author Talk,Beckton,2025-09-10,,36,9,1,12,5,2
 EVT0158,Children's Story Hour,North Woolwich,2026-03-25,3.6,30,37,3,14,4,12
 EVT0159,Author Talk,Plaistow,2026-05-01,3.6,38,32,1,13,8,15
 EVT0160,Computer Skills Workshop,North Woolwich,2026-03-23,3.0,47,31,6,12,8,4
@@ -168,7 +155,6 @@ EVT0165,Author Talk,Plaistow,2025-08-18,3.5,29,33,3,6,8,18
 EVT0166,Homework Help Session,North Woolwich,2026-01-13,4.7,42,26,2,8,7,9
 EVT0167,Children's Story Hour,East Ham,2026-02-02,4.5,30,43,4,9,1,0
 EVT0168,Homework Help Session,East Ham,2025-10-22,4.5,24,37,7,7,5,2
-EVT0169,Homework Help Session,Beckton,2025-10-21,,36,31,4,15,7,9
 EVT0170,Children's Story Hour,East Ham,2025-07-18,3.7,33,9,8,6,0,4
 EVT0171,Author Talk,Plaistow,2026-01-10,4.6,30,39,1,11,3,19
 EVT0172,Author Talk,North Woolwich,2026-02-25,3.1,20,12,7,10,5,19
@@ -179,11 +165,9 @@ EVT0176,Teen Gaming Night,Stratford,2025-12-25,3.3,26,29,3,8,2,19
 EVT0177,Book Club Meeting,Stratford,2025-10-30,4.5,48,28,9,14,3,1
 EVT0178,Children's Story Hour,East Ham,2026-04-17,5.0,14,37,5,4,7,6
 EVT0179,Author Talk,North Woolwich,2026-06-12,3.7,35,10,3,7,1,10
-EVT0180,Book Club Meeting,Beckton,2025-12-24,,13,9,5,7,0,6
 EVT0181,Author Talk,Manor Park,2026-04-27,4.2,10,33,7,2,10,3
 EVT0182,Homework Help Session,Plaistow,2026-02-23,3.8,33,44,8,9,10,10
 EVT0183,Homework Help Session,Plaistow,2025-10-30,3.4,25,24,5,9,1,17
-EVT0184,Teen Gaming Night,Stratford,2026-02-07,,19,31,9,8,5,4
 EVT0185,Author Talk,North Woolwich,2026-05-29,4.5,15,44,1,0,6,3
 EVT0186,Homework Help Session,Plaistow,2026-01-19,4.3,49,10,0,1,8,20
 EVT0187,Book Club Meeting,Beckton,2026-01-31,3.3,17,30,8,4,6,16
@@ -193,7 +177,6 @@ EVT0190,Homework Help Session,Stratford,2025-10-13,4.9,10,5,5,7,2,20
 EVT0191,Homework Help Session,Manor Park,2025-11-03,3.1,41,13,2,14,0,6
 EVT0192,Homework Help Session,North Woolwich,2025-10-16,3.5,39,22,8,10,9,15
 EVT0193,Book Club Meeting,Custom House,2026-03-23,4.8,39,12,2,11,1,9
-EVT0194,Children's Story Hour,Manor Park,2026-06-08,,42,6,2,12,0,12
 EVT0195,Teen Gaming Night,Stratford,2025-08-24,4.8,21,16,4,0,6,11
 EVT0196,Author Talk,Plaistow,2025-07-07,3.2,35,43,5,1,9,0
 EVT0197,Teen Gaming Night,North Woolwich,2025-08-10,3.2,47,37,5,13,6,8
@@ -224,12 +207,10 @@ EVT0221,Homework Help Session,Beckton,2026-06-05,4.1,42,7,4,0,3,6
 EVT0222,Children's Story Hour,Beckton,2026-05-01,5.0,31,19,7,7,5,16
 EVT0223,Computer Skills Workshop,Stratford,2025-07-11,4.2,32,25,4,8,6,0
 EVT0224,Computer Skills Workshop,Stratford,2026-03-02,4.0,49,32,7,8,6,20
-EVT0225,Children's Story Hour,North Woolwich,2026-05-23,,31,18,6,9,9,18
 EVT0226,Teen Gaming Night,North Woolwich,2026-02-24,3.3,19,38,5,13,7,20
 EVT0227,Teen Gaming Night,Manor Park,2026-03-27,3.4,12,15,1,11,5,20
 EVT0228,Book Club Meeting,Beckton,2026-06-09,4.8,11,36,7,10,5,17
 EVT0229,Computer Skills Workshop,East Ham,2026-02-02,3.5,36,21,3,11,6,15
-EVT0230,Homework Help Session,Plaistow,2026-05-10,,10,33,8,0,7,10
 EVT0231,Teen Gaming Night,North Woolwich,2025-09-05,3.1,46,11,9,2,7,15
 EVT0232,Teen Gaming Night,North Woolwich,2026-02-19,4.3,27,24,1,9,9,5
 EVT0233,Computer Skills Workshop,Manor Park,2025-11-23,4.1,49,39,2,7,8,20
@@ -263,7 +244,6 @@ EVT0260,Teen Gaming Night,Manor Park,2026-01-27,4.6,14,14,8,12,6,18
 EVT0261,Homework Help Session,East Ham,2025-10-21,3.3,22,15,1,8,10,5
 EVT0262,Computer Skills Workshop,Stratford,2026-01-18,3.8,16,42,7,4,5,19
 EVT0263,Author Talk,Plaistow,2026-05-20,3.4,26,45,10,8,6,11
-EVT0264,Homework Help Session,Beckton,2025-12-21,,30,22,4,2,1,16
 EVT0265,Homework Help Session,Custom House,2025-12-14,3.0,31,10,3,12,7,6
 EVT0266,Author Talk,East Ham,2025-07-25,4.9,13,18,8,3,9,6
 EVT0267,Computer Skills Workshop,Custom House,2025-10-26,4.3,29,11,8,8,7,2
@@ -276,7 +256,6 @@ EVT0273,Teen Gaming Night,Plaistow,2026-01-29,4.1,45,8,10,9,1,16
 EVT0274,Children's Story Hour,East Ham,2026-05-30,3.9,20,29,4,10,6,8
 EVT0275,Children's Story Hour,Custom House,2026-05-30,3.0,49,10,6,1,5,7
 EVT0276,Author Talk,Beckton,2026-04-12,3.3,46,7,9,15,10,0
-EVT0277,Homework Help Session,Stratford,2025-10-09,,48,33,10,1,1,17
 EVT0278,Author Talk,Custom House,2026-05-24,3.9,46,11,3,12,8,4
 EVT0279,Children's Story Hour,Plaistow,2026-04-10,4.3,27,16,1,10,3,2
 EVT0280,Computer Skills Workshop,North Woolwich,2025-09-01,3.8,18,26,2,12,0,4
@@ -286,7 +265,6 @@ EVT0283,Homework Help Session,Stratford,2025-12-24,4.0,10,31,5,14,3,10
 EVT0284,Author Talk,Manor Park,2026-02-08,4.5,34,41,3,11,1,0
 EVT0285,Author Talk,Stratford,2026-04-13,3.7,15,14,8,7,3,2
 EVT0286,Homework Help Session,Custom House,2025-09-10,4.7,40,41,9,0,3,10
-EVT0287,Computer Skills Workshop,Stratford,2026-04-11,,41,36,1,15,0,6
 EVT0288,Computer Skills Workshop,Custom House,2026-05-09,4.9,38,8,9,9,1,4
 EVT0289,Computer Skills Workshop,Stratford,2025-12-04,4.3,31,10,6,8,8,7
 EVT0290,Teen Gaming Night,Manor Park,2026-04-06,4.1,23,20,7,12,8,8
@@ -294,7 +272,6 @@ EVT0291,Computer Skills Workshop,Plaistow,2025-06-30,3.6,39,32,0,0,6,8
 EVT0292,Homework Help Session,Beckton,2026-02-04,4.5,47,34,10,7,1,20
 EVT0293,Children's Story Hour,East Ham,2025-08-20,5.0,24,16,4,13,7,10
 EVT0294,Author Talk,Beckton,2026-01-17,4.7,31,12,0,9,8,8
-EVT0295,Teen Gaming Night,Manor Park,2026-02-26,,38,18,1,2,5,12
 EVT0296,Author Talk,Beckton,2026-02-27,4.2,28,15,7,1,7,19
 EVT0297,Author Talk,Beckton,2026-03-14,4.0,47,24,7,13,1,3
 EVT0298,Teen Gaming Night,Plaistow,2026-01-20,3.9,35,24,7,11,4,11
@@ -313,13 +290,11 @@ EVT0310,Teen Gaming Night,Manor Park,2025-11-06,4.8,25,35,0,1,6,8
 EVT0311,Teen Gaming Night,Manor Park,2026-04-28,4.2,28,39,7,10,3,3
 EVT0312,Teen Gaming Night,Beckton,2025-11-14,4.1,10,21,2,11,5,9
 EVT0313,Children's Story Hour,Manor Park,2026-02-01,3.1,25,33,6,9,2,11
-EVT0314,Teen Gaming Night,Beckton,2026-03-07,,37,40,8,14,8,12
 EVT0315,Book Club Meeting,Stratford,2026-02-19,4.8,24,42,2,5,1,7
 EVT0316,Children's Story Hour,Stratford,2026-06-29,4.6,49,25,8,12,6,6
 EVT0317,Homework Help Session,East Ham,2026-01-16,4.7,44,35,9,15,2,16
 EVT0318,Homework Help Session,Stratford,2026-06-18,3.2,26,15,4,11,6,5
 EVT0319,Homework Help Session,Custom House,2026-03-27,4.5,35,24,4,3,6,0
-EVT0320,Teen Gaming Night,Custom House,2026-01-05,,42,5,7,0,0,10
 EVT0321,Children's Story Hour,East Ham,2026-01-22,3.0,43,36,4,10,10,2
 EVT0322,Homework Help Session,East Ham,2025-10-08,3.1,10,10,7,11,4,11
 EVT0323,Author Talk,Custom House,2025-07-28,3.3,41,44,2,2,0,8
@@ -341,16 +316,13 @@ EVT0338,Book Club Meeting,Beckton,2025-11-20,4.7,26,24,3,9,3,20
 EVT0339,Teen Gaming Night,Plaistow,2026-03-10,4.8,43,36,2,12,5,15
 EVT0340,Homework Help Session,Beckton,2026-04-13,3.1,29,19,8,1,2,19
 EVT0341,Book Club Meeting,Manor Park,2026-03-18,4.7,44,6,10,9,2,9
-EVT0342,Children's Story Hour,North Woolwich,2026-03-31,,11,8,9,9,0,19
 EVT0343,Homework Help Session,Manor Park,2025-11-26,3.8,40,19,7,13,2,9
 EVT0344,Homework Help Session,Beckton,2025-08-31,3.4,18,13,5,8,9,4
 EVT0345,Teen Gaming Night,East Ham,2026-03-07,4.4,13,43,1,8,10,1
 EVT0346,Book Club Meeting,Plaistow,2026-03-27,4.8,25,11,1,14,2,5
-EVT0347,Author Talk,Plaistow,2026-01-17,,31,31,9,0,0,20
 EVT0348,Author Talk,East Ham,2026-05-13,3.5,49,19,3,10,9,16
 EVT0349,Author Talk,East Ham,2025-08-21,4.4,20,41,8,7,10,10
 EVT0350,Homework Help Session,Plaistow,2026-02-26,3.3,40,10,5,7,9,0
-EVT0351,Book Club Meeting,North Woolwich,2025-12-03,,29,34,3,12,5,0
 EVT0352,Book Club Meeting,East Ham,2025-11-06,4.7,48,41,0,1,10,1
 EVT0353,Computer Skills Workshop,Stratford,2025-08-03,4.5,29,24,2,14,8,15
 EVT0354,Author Talk,Manor Park,2026-03-11,4.2,26,8,4,5,10,7
@@ -361,7 +333,6 @@ EVT0358,Teen Gaming Night,Stratford,2026-04-18,4.3,24,20,0,15,3,8
 EVT0359,Homework Help Session,East Ham,2026-01-04,3.3,13,16,3,13,4,3
 EVT0360,Computer Skills Workshop,Manor Park,2025-12-07,3.5,11,45,9,11,3,14
 EVT0361,Author Talk,Stratford,2026-02-22,3.7,30,9,6,1,2,7
-EVT0362,Children's Story Hour,Plaistow,2025-10-14,,15,28,5,10,8,15
 EVT0363,Teen Gaming Night,Manor Park,2025-10-13,4.4,50,8,4,4,2,20
 EVT0364,Author Talk,Plaistow,2025-10-25,3.3,29,9,1,5,5,11
 EVT0365,Book Club Meeting,Custom House,2025-10-07,4.6,12,36,8,2,9,2
@@ -369,13 +340,11 @@ EVT0366,Homework Help Session,Manor Park,2026-06-03,4.9,11,27,3,9,9,8
 EVT0367,Teen Gaming Night,North Woolwich,2025-09-10,3.2,40,12,5,15,5,11
 EVT0368,Computer Skills Workshop,Plaistow,2025-07-01,4.7,24,16,8,4,4,13
 EVT0369,Computer Skills Workshop,Stratford,2026-02-21,3.0,36,13,1,11,6,7
-EVT0370,Children's Story Hour,Plaistow,2026-04-12,,37,9,5,1,4,4
 EVT0371,Teen Gaming Night,Custom House,2026-04-24,3.2,34,37,5,13,9,14
 EVT0372,Book Club Meeting,North Woolwich,2026-04-05,3.2,23,32,0,1,9,1
 EVT0373,Author Talk,Beckton,2026-06-18,4.0,36,11,0,6,9,4
 EVT0374,Teen Gaming Night,Custom House,2026-03-27,4.8,16,39,9,6,0,8
 EVT0375,Homework Help Session,Stratford,2025-12-18,4.1,34,20,8,3,6,16
-EVT0376,Author Talk,Stratford,2025-10-14,,43,27,6,1,5,20
 EVT0377,Teen Gaming Night,Plaistow,2026-02-22,3.1,31,30,8,5,6,15
 EVT0378,Computer Skills Workshop,East Ham,2025-10-15,4.3,41,15,0,3,10,9
 EVT0379,Computer Skills Workshop,East Ham,2025-11-30,4.4,32,31,4,0,7,16
@@ -400,7 +369,6 @@ EVT0397,Book Club Meeting,East Ham,2026-04-23,5.0,28,7,5,12,7,14
 EVT0398,Children's Story Hour,East Ham,2025-11-24,4.7,33,10,10,11,8,18
 EVT0399,Children's Story Hour,Custom House,2025-07-20,3.9,50,15,8,0,5,2
 EVT0400,Homework Help Session,Custom House,2026-06-30,4.5,17,16,3,4,7,16
-EVT0401,Computer Skills Workshop,North Woolwich,2025-09-06,,49,7,9,12,3,13
 EVT0402,Book Club Meeting,Plaistow,2026-05-27,3.3,35,44,5,9,4,9
 EVT0403,Author Talk,North Woolwich,2025-10-31,3.9,45,14,4,12,3,2
 EVT0404,Computer Skills Workshop,Stratford,2025-12-14,3.1,29,28,0,7,1,3
@@ -411,15 +379,11 @@ EVT0408,Book Club Meeting,Manor Park,2025-11-18,3.4,41,31,8,6,4,2
 EVT0409,Children's Story Hour,Manor Park,2026-02-19,3.6,15,17,1,3,1,17
 EVT0410,Author Talk,Stratford,2025-11-07,3.6,24,15,5,3,7,18
 EVT0411,Computer Skills Workshop,Stratford,2026-01-04,4.6,42,28,6,0,9,8
-EVT0412,Computer Skills Workshop,Plaistow,2025-11-09,,16,23,10,14,8,6
 EVT0413,Book Club Meeting,Stratford,2025-08-23,4.5,26,27,6,8,5,15
-EVT0414,Computer Skills Workshop,Manor Park,2025-07-29,,40,43,4,1,7,8
 EVT0415,Book Club Meeting,Beckton,2025-07-17,3.5,38,21,4,14,0,19
 EVT0416,Children's Story Hour,North Woolwich,2026-01-03,3.8,24,30,9,9,1,5
 EVT0417,Author Talk,Stratford,2025-11-26,3.9,10,29,0,7,2,13
-EVT0418,Book Club Meeting,Stratford,2025-11-03,,45,7,5,15,6,7
 EVT0419,Children's Story Hour,Stratford,2026-05-06,4.6,11,39,9,12,10,10
-EVT0420,Book Club Meeting,Manor Park,2025-09-14,,24,30,0,12,4,0
 EVT0421,Computer Skills Workshop,Manor Park,2025-11-18,4.3,43,30,7,9,8,12
 EVT0422,Teen Gaming Night,Custom House,2026-06-22,3.5,27,37,4,2,7,0
 EVT0423,Children's Story Hour,Stratford,2025-12-28,4.9,13,34,7,0,1,14
@@ -440,7 +404,6 @@ EVT0437,Computer Skills Workshop,North Woolwich,2025-11-18,3.8,47,40,9,6,5,8
 EVT0438,Teen Gaming Night,Custom House,2025-07-02,3.7,48,33,0,3,4,20
 EVT0439,Children's Story Hour,Beckton,2026-05-18,4.7,24,43,3,8,10,4
 EVT0440,Children's Story Hour,North Woolwich,2026-01-18,4.7,44,30,6,4,5,10
-EVT0441,Homework Help Session,Stratford,2026-03-08,,31,6,9,5,6,1
 EVT0442,Homework Help Session,Stratford,2025-07-02,4.7,17,8,1,10,6,2
 EVT0443,Computer Skills Workshop,East Ham,2026-01-03,3.0,45,21,4,2,2,2
 EVT0444,Homework Help Session,North Woolwich,2025-08-07,3.8,45,37,2,6,8,9
@@ -455,10 +418,8 @@ EVT0452,Teen Gaming Night,North Woolwich,2025-12-21,4.1,14,41,3,5,5,4
 EVT0453,Homework Help Session,Beckton,2026-01-23,4.2,35,34,1,5,6,19
 EVT0454,Teen Gaming Night,Beckton,2026-01-01,4.2,49,41,5,5,2,10
 EVT0455,Author Talk,Manor Park,2026-01-26,4.5,29,38,4,7,10,13
-EVT0456,Computer Skills Workshop,Custom House,2025-09-18,,17,12,1,9,3,7
 EVT0457,Author Talk,Stratford,2026-05-03,4.7,48,38,0,10,8,15
 EVT0458,Author Talk,North Woolwich,2025-08-07,3.3,32,43,10,1,10,12
-EVT0459,Computer Skills Workshop,Custom House,2026-02-08,,40,44,0,5,5,18
 EVT0460,Book Club Meeting,Stratford,2025-12-21,4.8,27,29,3,14,2,3
 EVT0461,Computer Skills Workshop,Plaistow,2026-02-06,4.1,11,18,2,6,5,16
 EVT0462,Children's Story Hour,East Ham,2025-08-04,4.9,49,25,5,15,7,7
@@ -472,7 +433,6 @@ EVT0469,Computer Skills Workshop,North Woolwich,2026-03-29,4.4,43,38,3,2,2,20
 EVT0470,Author Talk,Beckton,2025-08-06,3.0,28,39,5,4,2,0
 EVT0471,Teen Gaming Night,Plaistow,2025-07-11,4.3,11,40,4,4,8,15
 EVT0472,Computer Skills Workshop,North Woolwich,2026-01-06,3.1,20,36,9,13,3,20
-EVT0473,Teen Gaming Night,North Woolwich,2026-03-17,,30,27,5,2,10,0
 EVT0474,Author Talk,Stratford,2026-03-07,3.3,12,37,1,9,8,8
 EVT0475,Book Club Meeting,East Ham,2025-10-24,3.5,13,5,3,13,0,14
 EVT0476,Children's Story Hour,East Ham,2025-08-14,4.8,43,19,0,6,10,8
@@ -480,7 +440,6 @@ EVT0477,Homework Help Session,Manor Park,2025-11-27,4.5,22,34,5,6,9,3
 EVT0478,Book Club Meeting,Beckton,2025-10-20,3.8,45,6,9,3,6,12
 EVT0479,Computer Skills Workshop,Custom House,2026-04-12,3.0,34,40,7,9,0,7
 EVT0480,Author Talk,Manor Park,2025-10-30,4.2,26,9,0,12,1,13
-EVT0481,Children's Story Hour,Stratford,2026-03-08,,44,23,4,10,8,0
 EVT0482,Homework Help Session,North Woolwich,2026-02-09,4.7,16,36,6,9,2,18
 EVT0483,Book Club Meeting,Custom House,2025-08-30,3.6,10,42,2,9,1,3
 EVT0484,Children's Story Hour,North Woolwich,2025-08-08,4.7,49,31,9,13,1,6
@@ -491,10 +450,8 @@ EVT0488,Children's Story Hour,Stratford,2025-10-31,4.7,17,26,2,10,5,16
 EVT0489,Computer Skills Workshop,Plaistow,2026-03-31,5.0,44,40,8,5,6,1
 EVT0490,Author Talk,Custom House,2025-12-25,4.1,47,6,3,0,4,11
 EVT0491,Teen Gaming Night,Stratford,2025-12-26,3.3,47,35,1,13,1,9
-EVT0492,Teen Gaming Night,East Ham,2025-07-28,,33,26,4,11,9,5
 EVT0493,Homework Help Session,Beckton,2025-07-30,4.2,32,41,6,14,5,14
 EVT0494,Children's Story Hour,Stratford,2026-02-09,3.9,22,33,9,7,0,9
-EVT0495,Book Club Meeting,Plaistow,2026-04-20,,26,25,10,3,1,12
 EVT0496,Teen Gaming Night,Beckton,2026-05-25,4.3,32,38,9,14,0,3
 EVT0497,Book Club Meeting,East Ham,2026-01-24,3.1,17,18,3,12,8,19
 EVT0498,Teen Gaming Night,East Ham,2025-08-11,4.8,27,34,6,2,2,16
