@@ -44,3 +44,7 @@ def test_load_json_invalid(tmp_path):
     bad.write_text("not valid json {{{")
     with pytest.raises(json.JSONDecodeError):
         load_json(str(bad))
+
+def test_load_csv_raises_filenotfounderror_for_missing_file():
+    with pytest.raises(FileNotFoundError, match="nonexistent.csv"):
+        load_csv('data/nonexistent.csv')
