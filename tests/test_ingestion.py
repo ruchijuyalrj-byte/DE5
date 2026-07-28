@@ -1,8 +1,10 @@
 """Tests for data ingestion functions."""
 
-import pytest
 import pandas as pd
+import pytest
+
 from data_processing.ingestion import load_csv, load_json
+
 
 def test_load_csv_success():
     """Test loading real CSV file."""

@@ -8,13 +8,13 @@ This creates 4 files for the library pipeline project:
 - catalogue.xlsx (messy Excel with formatting issues)
 """
 
-from faker import Faker
-import pandas as pd
 import json
 import random
-from datetime import date, datetime, timedelta
-import numpy as np
+from datetime import date, timedelta
 
+import numpy as np
+import pandas as pd
+from faker import Faker
 
 # Set number of records
 CIRCULATION = 5000

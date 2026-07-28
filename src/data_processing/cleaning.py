@@ -1,116 +1,47 @@
-"""Data cleaning functions for library pipeline.
-
-The cleaning module
-This module contains functions for cleaning and standardising data.
-All functions return new DataFrames without modifying the input.
-"""
-
-# Uncomment when needed:
-# import pandas as pd
-# from typing import List, Optional
-
-import logging
 import pandas as pd
+import pytest
 
-logger = logging.getLogger(__name__)
+from data_processing.cleaning import (
+    handle_missing_values,
+    standardise_dates,
+)
 
 
-def remove_duplicates(df, subset=None):
-    """Remove duplicate rows from DataFrame.
+def test_handle_missing_forward_fill():
+    """Covers the elif strategy == 'forward_fill' branch."""
+    df = pd.DataFrame({'id': [1, 2, 3], 'value': [10, None, 30]})
+    result = handle_missing_values(df, strategy='forward_fill')
+    assert result['value'].tolist() == [10, 10, 30]
 
-    Args:
-        df (pd.DataFrame): Input DataFrame
-        subset (list, optional): Columns to consider for duplicates
 
-    Returns:
-        pd.DataFrame: DataFrame with duplicates removed
+def test_handle_missing_invalid_strategy_raises():
+    """Covers the final else: raise ValueError branch."""
+    df = pd.DataFrame({'id': [1, 2], 'value': [10, None]})
+    with pytest.raises(ValueError, match="Unknown strategy"):
+        handle_missing_values(df, strategy='bogus_strategy')
 
-    Example:
-        >>> df_clean = remove_duplicates(df, subset=['transaction_id'])
+
+def test_handle_missing_fill_without_value_raises():
+    """Covers 'if fill_value is None: raise ValueError' branch."""
+    df = pd.DataFrame({'id': [1, 2], 'value': [10, None]})
+    with pytest.raises(ValueError, match="fill_value must be provided"):
+        handle_missing_values(df, strategy='fill')
+
+
+def test_standardise_dates_skips_missing_column():
+    """Covers 'if col not in df.columns: continue' branch."""
+    df = pd.DataFrame({'date': ['2024-01-01', '2024-06-15']})
+    result = standardise_dates(df, date_columns=['date', 'does_not_exist'])
+    assert 'does_not_exist' not in result.columns
+    assert pd.api.types.is_datetime64_any_dtype(result['date'])
+
+
+def test_standardise_dates_invalid_dtype_raises():
+    """Attempts to trigger the except Exception -> raise branch.
+    Note: pd.to_datetime with errors='coerce' rarely raises — it usually
+    returns NaT instead. This test tries an input type that can genuinely
+    break the conversion (e.g. a column of dicts), to force an exception.
     """
-    df = df.copy()  # Work on a copy!
-
-    initial_rows = len(df)
-    df = df.drop_duplicates(subset=subset, keep='first')
-    removed = initial_rows - len(df)
-
-    if removed > 0:
-        logger.info(f"Removed {removed} duplicate rows")
-
-    return df
-
-
-def handle_missing_values(df, strategy='drop', fill_value=None, columns=None):
-    """Handle missing values in DataFrame.
-
-    Args:
-        df (pd.DataFrame): Input DataFrame
-        strategy (str): 'drop', 'fill', or 'forward_fill'
-        fill_value: Value to fill if strategy='fill'
-        columns (list, optional): Specific columns to handle
-
-    Returns:
-        pd.DataFrame: DataFrame with missing values handled
-
-    Example:
-        >>> df_clean = handle_missing_values(df, strategy='drop')
-        >>> df_filled = handle_missing_values(df, strategy='fill', fill_value=0)
-    """
-    df = df.copy()
-
-    if columns:
-        target_cols = columns
-    else:
-        target_cols = df.columns
-
-    initial_rows = len(df)
-
-    if strategy == 'drop':
-        df = df.dropna(subset=target_cols)
-        logger.info(f"Dropped {initial_rows - len(df)} rows with missing values")
-
-    elif strategy == 'fill':
-        if fill_value is None:
-            raise ValueError("fill_value must be provided when strategy='fill'")
-        df[target_cols] = df[target_cols].fillna(fill_value)
-        logger.info(f"Filled missing values with {fill_value}")
-
-    elif strategy == 'forward_fill':
-        df[target_cols] = df[target_cols].ffill()
-        logger.info("Forward filled missing values")
-
-    else:
-        raise ValueError(f"Unknown strategy: {strategy}")
-
-    return df
-
-
-def standardise_dates(df, date_columns, date_format='%Y-%m-%d'):
-    """Standardise date columns to consistent format.
-
-    Args:
-        df (pd.DataFrame): Input DataFrame
-        date_columns (list): Column names containing dates
-        date_format (str): Target date format
-
-    Returns:
-        pd.DataFrame: DataFrame with standardised dates
-
-    Example:
-        >>> df_clean = standardise_dates(df, ['checkout_date', 'return_date'])
-    """
-    df = df.copy()
-
-    for col in date_columns:
-        if col not in df.columns:
-            logger.warning(f"Column {col} not found in DataFrame")
-            continue
-
-        try:
-            df[col] = pd.to_datetime(df[col], errors='coerce')
-            logger.info(f"Standardised dates in column: {col}")
-        except Exception as e:
-            logger.error(f"Error standardising dates in {col}: {e}")
-            raise
-
-    return df
+    df = pd.DataFrame({'date': [{'bad': 'data'}, {'bad': 'data2'}]})
+    with pytest.raises(Exception):
+        standardise_dates(df, date_columns='date')
