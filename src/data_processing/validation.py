@@ -15,4 +15,25 @@ def validate_isbn(isbn):
 
     TODO: Implement check-digit validation and formatting cleanup.
     """
+
+    isbn_new = str(isbn)
+
+    if len(isbn_new) != 13:
+        return (None)
+
     return isbn
+
+    """one = 1
+    three = 3
+    check1 = 1
+    check3 = 1
+    sum = 0
+
+    for i in isbn:
+        check1 = i * one
+        check3 = i * three
+        sum = check1 + check3
+
+    check_digit = (10 - (sum % 10)) % 10"""
+        
+
