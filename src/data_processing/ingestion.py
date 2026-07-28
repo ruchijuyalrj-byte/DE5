@@ -24,6 +24,11 @@ def load_csv(filepath):
 
     TODO: Add error handling and logging
     """
+
+            # Check file exists
+    if not filepath.exists():
+        logger.error(f"CSV File not found: {filepath}")
+        raise FileNotFoundError(f"CSV File not found: {filepath}")
     return pd.read_csv(filepath)
 
 
@@ -38,6 +43,11 @@ def load_json(filepath):
 
     TODO: Implement JSON loading and flattening
     """
+
+        # Check file exists
+    if not filepath.exists():
+        logger.error(f"JSON File not found: {filepath}")
+        raise FileNotFoundError(f"JSON File not found: {filepath}")
     with open(filepath, 'r') as f:
         data = json.load(f)
     return pd.json_normalize(data)
