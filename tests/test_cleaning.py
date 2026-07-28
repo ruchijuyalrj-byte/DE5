@@ -42,3 +42,7 @@ def test_standardise_dates():
     df = pd.DataFrame({'date': ['2024-01-01', '2024-06-15']})
     result = standardise_dates(df, date_columns=['date'])
     # TODO: assert the date column is datetime type
+
+def test_handle_missing_fill(sample_with_missing):
+    result = handle_missing_values(sample_with_missing, strategy='fill', fill_value=0)
+    assert len(result) == 3
