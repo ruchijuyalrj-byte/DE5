@@ -37,3 +37,6 @@ omit = [
 show_missing = true
 skip_empty = true
 # fail_under = 70
+
+[tool.ruff.lint]
+ignore = ["RUF010","DTZ005","I001"]
