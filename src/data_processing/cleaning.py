@@ -1,13 +1,8 @@
 import pandas as pd
 import logging
-import pytest
+
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
-
-from data_processing.cleaning import (remove_duplicates,
-    handle_missing_values,
-    standardise_dates,
-)
 
 
 def remove_duplicates(df, subset=None):
