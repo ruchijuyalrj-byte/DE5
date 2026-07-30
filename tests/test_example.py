@@ -3,8 +3,8 @@
 Copy this pattern for your own tests!
 """
 
-import pytest
 import pandas as pd
+import pytest
 
 
 @pytest.fixture
@@ -21,3 +21,5 @@ def test_example(sample_df):
     assert len(sample_df) == 3
     assert 'id' in sample_df.columns
     assert sample_df['id'].is_unique
+
+
